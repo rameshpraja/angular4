@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="lib" path="node_modules/selenium-webdriver/node_modules/adm-zip/test/assets/fast.zip"/>
+	<buildpathentry kind="lib" path="node_modules/selenium-webdriver/node_modules/adm-zip/test/assets/fastest.zip"/>
+	<buildpathentry kind="lib" path="node_modules/selenium-webdriver/node_modules/adm-zip/test/assets/maximum.zip"/>
+	<buildpathentry kind="lib" path="node_modules/selenium-webdriver/node_modules/adm-zip/test/assets/store.zip"/>
+	<buildpathentry kind="lib" path="node_modules/selenium-webdriver/node_modules/adm-zip/test/assets/attributes_test.zip"/>
+	<buildpathentry kind="lib" path="node_modules/selenium-webdriver/node_modules/adm-zip/test/assets/linux_arc.zip"/>
+	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+	<buildpathentry kind="lib" path="node_modules/selenium-webdriver/node_modules/adm-zip/test/assets/normal.zip"/>
+	<buildpathentry kind="lib" path="node_modules/selenium-webdriver/node_modules/adm-zip/test/assets/ultra.zip"/>
+</buildpath>

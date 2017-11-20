@@ -1,0 +1,14 @@
+<!--<div *ngIf="message" [ngClass]="{ 'alert': message, 'alert-success': message.type === 'success', 'alert-danger': message.type === 'error' }">{{message.text}}</div>-->
+<!--<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-block">-->
+<!--<p *ngFor="let alert of alerts">-->
+    <ngb-alert *ngIf="message" [type]="message.type" (close)="closeAlert(message)">{{ message.text }}</ngb-alert>
+    <!--</p>-->
+    <!--</div>
+            </div>
+    
+        </div>
+    </div>-->
+    

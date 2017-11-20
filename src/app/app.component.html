@@ -1,0 +1,49 @@
+<!-- Header Navigation Bar -->
+<nav class="navbar navbar-light" style="background:lightblue;">
+  <div class="container">
+    <a class="navbar-brand" routerLink="/">Logo</a>
+    <ul class="nav navbar-nav pull-xs-right">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/">
+          Home
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/get-list">
+          Get List
+        </a>
+      </li>
+	  
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/login">
+          Sign in
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link">
+          Sign up
+        </a>
+      </li>
+
+    </ul>
+
+  </div>
+</nav>
+<router-outlet>
+    <span *ngIf="showLoader" class="loading"></span>
+</router-outlet>
+<h1 style="text-align:center;">{{title}} </h1>
+<!-- End Header Navigation Bar -->
+<router-outlet></router-outlet>
+
+<!--<footer>
+  <div class="container">
+    <a class="logo-font" routerlink="/" >Logo</a>
+    <span class="attribution">
+      © 2017.
+      An interactive learning project from <a routerlink="/">Ramesh Prajapati</a>.
+    </span>
+  </div>
+</footer> -->
